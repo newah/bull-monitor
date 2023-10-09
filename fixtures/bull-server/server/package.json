@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "ts-node-dev -r tsconfig-paths/register --project tsconfig.docker.json index.ts"
+    "start": "ts-node-dev -r tsconfig-paths/register --project tsconfig.json index.ts",
+    "start-docker": "ts-node-dev -r tsconfig-paths/register --project tsconfig.docker.json index.ts"
   },
   "keywords": [],
   "author": "",
